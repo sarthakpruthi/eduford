@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-------------------------------------------header----------------------------------------- -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        
+        <h1>Our Certificates and Online Programs</h1>
+
+    </section>
+
+    <!-- -------------------blog page content------------------ -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificates and Online Programs</h2>
+                <p>Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                </p>
+                <br>
+                <p>Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                </p>
+                <br>
+                <p>Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                </p>
+                <br>
+                <p>Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                </p>
+                <br><p>Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                    Our Certificates and Online Programs Our Certificates and Online Programs
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Name">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Businees Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>32</span>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+    <!------------------footer------------------------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Enroll For Our Various Online Courses Enroll 
+            For Our Various Online Courses Enroll For Our
+            Various Online Courses Enroll For Our Various
+            Online Courses <br> Enroll For Our Various Online 
+            Courses Enroll For Our Various Online Courses </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+
+</body>
+
+<script>
+    var navlink = document.getElementById("nav-links");
+    function hidemenu(){
+        navlink.style.right = "-200px";
+    }
+    function showmenu(){
+        navlink.style.right = "0px";
+    }
+</script>
+</html>
